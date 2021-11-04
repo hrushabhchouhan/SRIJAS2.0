@@ -12,7 +12,7 @@
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/hvudeshi/SRIJAS)
 ![github workflow](https://github.com/ineelshah/SRIJAS/actions/workflows/unit_test.yml/badge.svg)
 ![github workflow](https://github.com/ineelshah/SRIJAS/actions/workflows/style_checker.yml/badge.svg)
-![github workflow](https://github.com/ineelshah/SRIJAS/actions/workflows/main.yml/badge.svg)
+![github workflow](https://github.com/het-patel99/SRIJAS/actions/workflows/main.yml/badge.svg)
 ![github workflow](https://github.com/ineelshah/SRIJAS/actions/workflows/code_formatter.yml/badge.svg)
 ![github workflow](https://github.com/ineelshah/SRIJAS/actions/workflows/code_cov.yml/badge.svg)
 ![github workflow](https://github.com/ineelshah/SRIJAS/actions/workflows/close_as_a_feature.yml/badge.svg)
