@@ -8,17 +8,16 @@ import email_alert as ea
 from selenium import webdriver
 from webdriver_manager.chrome import ChromeDriverManager
 
-#######################################################DATABASE OPERATIONS########################################################################################
-
-
-############################################creating connection for database#################################
-
+#Setup Web driver
 def get_driver():
     options = webdriver.ChromeOptions()
     options.headless = True
     driver = webdriver.Chrome(options=options, executable_path=ChromeDriverManager().install())
     return driver
 
+#######################################################DATABASE OPERATIONS########################################################################################
+
+# Creating connection for database
 def db_connect(properties):
     properties = open('parameters.json')
     data = json.load(properties)
@@ -32,6 +31,7 @@ def db_connect(properties):
                                               password=password)
     return connection
 
+# Returns list of sills present in Skill Master Table in Database
 def get_all_skills(connection):
     sql_select_Query = "select DISTINCT skill_id,skill_title from skill_master"
     cursor=connection.cursor()
@@ -43,6 +43,7 @@ def get_all_skills(connection):
     print("All skills",all_skills)
     return all_skills
 
+# Returns user location from User Master Table from Database
 def get_location(connection):
     sql_select_query = "select user_location from user_master um join user_resume ur where um.user_id=ur.user_id"
     cursor=connection.cursor()
@@ -50,6 +51,7 @@ def get_location(connection):
     records2=cursor.fetchall()
     return records2[-1][0]
 
+# Returns user threshold from User Master Table from Database 
 def get_threshold(connection):
     sql_select_query = "select user_threshold from user_master um join user_resume ur where um.user_id=ur.user_id"
     cursor=connection.cursor()
@@ -57,6 +59,7 @@ def get_threshold(connection):
     records2=cursor.fetchall()
     return records2[-1][0]
 
+# Returns job_title from Job Master Table from Database
 def get_role(connection):
     sql_select_query = "select job_title from job_master jm join user_master um where jm.job_id=um.user_preferred_job_id"
     cursor=connection.cursor()
@@ -64,6 +67,7 @@ def get_role(connection):
     records2=cursor.fetchall()
     return records2[-1][0]
 
+# Returns list of skills associated with each resume id from Resume Skills Table from Database
 def get_resume_skills(connection):
     sql_select_Query2="select resume_id,skill_id from resume_skills where is_active=1"
     cursor=connection.cursor()
@@ -76,8 +80,8 @@ def get_resume_skills(connection):
         else:
             resume_skills[row[0]]=[row[1]]
     return resume_skills
-        
 
+# Returns list of emails associated with each resume id from User Master Table from Database
 def get_emailing_list(connection):
     email_id_list={}
     sql_select_Query3="SELECT resume_id,user_email from user_master um join user_resume ur on um.user_id=ur.user_id"
@@ -96,6 +100,8 @@ if __name__ =='__main__':
     properties = open('parameters.json')
     data = json.load(properties)
     connection = db_connect(properties)
+
+    #fetch details from database
     all_skills = get_all_skills(connection)
     #print(all_skills)
     resume_skills = get_resume_skills(connection)
@@ -107,13 +113,16 @@ if __name__ =='__main__':
     print(role)
     no_of_jobs_to_retrieve = 5
     match_threshold = int(get_threshold(connection))
+
+    #scrap role name and job links along with job description from LinkedIn, glassdoor and Indeed
     # role_name_linkedIn, final_result_linkedIn = sl.get_job_description(resume_skills,all_skills, match_threshold, role, location, no_of_jobs_to_retrieve, data)
     job_role, final_result_glassdoor = sg.get_job_description(resume_skills,all_skills, match_threshold, role, location, no_of_jobs_to_retrieve, data)
     # role_name_indeed, final_result_indeed = si.get_job_description(resume_skills,all_skills, match_threshold, role, location, no_of_jobs_to_retrieve, data)
     print(final_result_glassdoor)
     # final_results = final_result_linkedIn + final_result_glassdoor + final_result_indeed
     # role_name = role_name_linkedIn + role_name_glassdoor + role_name_indeed
-
+    
+    #Send Email of job links
     # ea.sendmail(final_result_linkedIn,email_id_list,role_name_linkedIn)
 
 
