@@ -82,6 +82,33 @@
   }
 
   $message = $message_1.", \n ".$message_2.", \n ".$message_3.", \n ".$message_4.".";
+=======
+ob_start();
+require 'sendData.php';
+$results = executer("Hardik", "hvudeshi@ncsu.edu", "Hardik", "Raleigh", 100, 1, "Hardik_Udeshi_Resume.pdf");
+ob_end_clean();
+if($results["resume"]==1){
+  $message2 = "Resume test cases passed successfully.";
+}else{
+  $message2 = "Resume test cases failed.";
+}
+if($results["user"]==1){
+  $message1 = "User test cases passed successfully.";
+}else{
+  $message1 = "User test cases failed.";
+}
+if($results["params"]==1){
+  $message3 = "Dynamic infrastructure Parameter File has been created successfully.";
+}else{
+  $message3 = "Dynamic infrastructure Parameter File creation failed.";
+}
+if($results["dbConnection"]==1){
+  $message4 = "Overall infrastructure and database connection is checked successfully";
+}else{
+  $message4 = "Issue in infrastructure setting and database connection";
+}
+
+$message = $message1.", \n ".$message2.", \n ".$message3.", \n ".$message4.".";
 // $message = wordwrap($message, 70, "\r\n");
 //
 // $headers = array(
