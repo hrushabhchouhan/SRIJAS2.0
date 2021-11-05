@@ -26,12 +26,13 @@ def sendmail(final_result,email_id_list, job_role):
             temp_str = ""
             list_of_curr_links = final_result[key]
             counter = 1
+            linespace = "<br>"
             for link in list_of_curr_links:
-                print(link)
+                # print(link)
                 pre = """<a href='"""
                 embedded_link = link
                 post = """'>Click here</a>"""
-                temp_str += (str(counter) + ".  " + job_role[counter-1] + ': ' + pre + embedded_link + post+ '\n')
+                temp_str += (linespace + str(counter) + ".  " + job_role[counter-1] + ': ' + pre + embedded_link + post+ '\n')
                 counter += 1
             body += temp_str
             msg.attach(MIMEText(body, 'html'))
@@ -61,7 +62,7 @@ def sendmail(final_result,email_id_list, job_role):
     if flag == 0:
         return "Skill or Job Role not matched"
     elif flag==1:
-        return "Sent"
+        return "New Job openings that matches your resume has been mailed to you"
     elif flag==2:
         return "Failed to connect to the server. Bad connection settings"
     elif flag==3:

@@ -42,7 +42,7 @@ def get_job_description(resume_skills,all_skills, match_threshold, role, locatio
     c = 0
     jobcards = driver.find_element_by_id('mosaic-provider-jobcards')
     jobs = jobcards.find_elements_by_xpath("./*") 
-    print(len(jobs))
+    # print(len(jobs))
     for text in jobs:
         if text.get_attribute('href'):  ### get all the job postings URL'sz
             job_urls.append(text.get_attribute('href'))
@@ -50,6 +50,7 @@ def get_job_description(resume_skills,all_skills, match_threshold, role, locatio
             if (c >= no_of_jobs_to_retrieve):
                 break
     final_dict = {}
+    job_role = []
     # ========== Iterate through each url and get the job description =================================
     for i in job_urls:
         time.sleep(5)
@@ -58,7 +59,8 @@ def get_job_description(resume_skills,all_skills, match_threshold, role, locatio
         job_description = driver.find_element_by_xpath('//*[@id="jobDescriptionText"]').text
         jobs.append(job_description)
         final_dict[i] = job_description
+        job_role.append("Software Engineer")
     
     final_result=ke.get_user_id_to_list_of_job_ids(resume_skills,final_dict,all_skills,match_threshold)
 
-    return final_result
+    return job_role, final_result
