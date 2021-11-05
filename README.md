@@ -13,7 +13,6 @@
 ![github workflow](https://github.com/hvudeshi/SRIJAS/actions/workflows/unit_test.yml/badge.svg)
 ![github workflow](https://github.com/hvudeshi/SRIJAS/actions/workflows/style_checker.yml/badge.svg)
 ![github workflow](https://github.com/hvudeshi/SRIJAS/actions/workflows/main.yml/badge.svg)
-![github workflow](https://github.com/hvudeshi/SRIJAS/actions/workflows/code_formatter.yml/badge.svg)
 ![github workflow](https://github.com/hvudeshi/SRIJAS/actions/workflows/code_cov.yml/badge.svg)
 ![github workflow](https://github.com/hvudeshi/SRIJAS/actions/workflows/close_as_a_feature.yml/badge.svg)
 ![github workflow](https://github.com/hvudeshi/SRIJAS/actions/workflows/Respost.yml/badge.svg)
