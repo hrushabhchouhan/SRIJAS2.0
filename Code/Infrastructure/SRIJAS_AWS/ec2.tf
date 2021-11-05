@@ -46,7 +46,15 @@ export VAR_DB_USER_NAME=${var.db_user_name}
 export VAR_DB_PASSWORD=${var.db_password}
 export DB_NAME=${aws_db_instance.default.name}
 export EMAIL_PASSWORD=${var.email_password}
-sudo bash Infrastructure/SRIJAS_AWS/ec2_web_app_script.sh
+bash Infrastructure/SRIJAS_AWS/ec2_web_app_script.sh
+echo '{"server_name" : "${aws_db_instance.default.address}", "user_name":"${var.db_user_name}", "password": "${var.db_password}", "db_name": "${aws_db_instance.default.name}", "email_password": "${var.email_password}"}' > Web_app/parameters.json
+sudo cp -a Web_app/. /var/www/html/
+cd /
+sudo chmod -R 777 /var/www/html
+cd /
+mysql -u ${var.db_user_name} -h ${aws_db_instance.default.address} --password=${var.db_password} < /home/ubuntu/project/SRIJAS/Code/Database/schema/srijas.sql
+cd /var/www/html
+php test.php
 EOF
 }
 
@@ -96,7 +104,13 @@ export VAR_DB_USER_NAME=${var.db_user_name}
 export VAR_DB_PASSWORD=${var.db_password}
 export DB_NAME=${aws_db_instance.default.name}
 export EMAIL_PASSWORD=${var.email_password}
-sudo bash Infrastructure/SRIJAS_AWS/ec2_web_scrapper_script.sh
+bash Infrastructure/SRIJAS_AWS/ec2_web_scrapper_script.sh
+echo '{"server_name" : "${aws_db_instance.default.address}", "user_name":"${var.db_user_name}", "password": "${var.db_password}", "db_name": "${aws_db_instance.default.name}", "linked_in_pwd":"SRIJASGMAILPWD"}' > Scrapper/parameters.json
+virtualenv -q -p /usr/bin/python3.8 $1
+source $1/bin/activate
+$1/bin/pip install -r /home/ubuntu/project/SRIJAS/requirements.txt
+echo "30 1 * * * python3 /home/ubuntu/project/SRIJAS/Code/Scrapper/Scrapper.py" | crontab -
+crontab -l | { cat; echo "30 1 * * * python3 /home/ubuntu/project/SRIJAS/Code/Scrapper/scrapper_glassdoor.py"; } | crontab -
 EOF
 }
 
