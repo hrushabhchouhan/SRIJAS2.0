@@ -14,14 +14,11 @@ data = ""
 
 
 def test_get_job_description_1():
-    job_title, jobs = get_job_description(resume_skills_dict,total_skills, threshold, role, location, no_of_jobs, data)
+    jobs = get_job_description(resume_skills_dict,total_skills, threshold, role, location, no_of_jobs, data)
     assert jobs is not None
 
 def test_get_job_description_2():
-    job_title, jobs = get_job_description(resume_skills_dict,total_skills, threshold, role, location, no_of_jobs, data)
+    jobs = get_job_description(resume_skills_dict,total_skills, threshold, role, location, no_of_jobs, data)
     for i in jobs:
         assert i == "res1"
 
-def test_get_job_description_3():
-    job_title, jobs = get_job_description(resume_skills_dict,total_skills, threshold, role, location, no_of_jobs, data)
-    assert job_title is not None
