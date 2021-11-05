@@ -61,7 +61,10 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
     </td>
   </tr>
   </table>
-
+<img src="email_updated_final.png">  
+<img src="ss-login.png">  
+<img src="ss-skills.png">  
+<img src="ui_updated.png">  
 ## Plan Of Action:
 
 ### Phase 1:
