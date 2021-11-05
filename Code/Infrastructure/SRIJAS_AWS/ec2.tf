@@ -46,7 +46,7 @@ export VAR_DB_USER_NAME=${var.db_user_name}
 export VAR_DB_PASSWORD=${var.db_password}
 export DB_NAME=${aws_db_instance.default.name}
 export EMAIL_PASSWORD=${var.email_password}
-sudo bash Infrastructure/SRIJAS_AWS/ec2_web_scrapper.sh
+sudo bash Infrastructure/SRIJAS_AWS/ec2_web_app_script.sh
 EOF
 }
 
@@ -96,7 +96,7 @@ export VAR_DB_USER_NAME=${var.db_user_name}
 export VAR_DB_PASSWORD=${var.db_password}
 export DB_NAME=${aws_db_instance.default.name}
 export EMAIL_PASSWORD=${var.email_password}
-sudo bash Infrastructure/SRIJAS_AWS/ec2_web_app.sh
+sudo bash Infrastructure/SRIJAS_AWS/ec2_web_scrapper_script.sh
 EOF
 }
 
