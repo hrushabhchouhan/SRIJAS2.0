@@ -2,12 +2,12 @@
 
 |Score|Notes| Evidence|
 |-|-----|---------|
-|.5| short release cycles| https://github.com/hvudeshi/SRIJAS/releases |
+|.5| short release cycles| All the releases can be seen in https://github.com/hvudeshi/SRIJAS/releases |
 |.5| workload is spread over the whole team (so one team member is often Xtimes more productive than the others...| https://github.com/hvudeshi/SRIJAS/graphs/contributors |
 |.5|Docs: why: docs tell a story, motivate the whole thing, deliver a punchline that makes you want to rush out and use the thing | The demo video and repository homepage (README) shows this (https://github.com/hvudeshi/SRIJAS/blob/main/README.md) |
 |.5|the files CONTRIBUTING.md lists coding standards and lots of tips on how to extend the system without screwing things up  | https://github.com/hvudeshi/SRIJAS/blob/main/CONTRIBUTING.md |
 |.5|Docs: doco generated , format not ugly  | in GH(https://github.com/hvudeshi/SRIJAS/blob/main/docs/Scraper_Service_linked-in_documentation.pdf) |
-|.5|evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) | https://github.com/hvudeshi/SRIJAS/graphs/contributors |
+|.5|evidence that the whole team is using the same tools (e.g. config files in the repo, updated by lots of different people) | We have used an AWS server and all have worked on the AWS server. There is also Infrastructure.pdf added in the docs. https://github.com/hvudeshi/SRIJAS/graphs/contributors |
 |.5|evidence that the members of the team are working across multiple places in the code base | https://github.com/hvudeshi/SRIJAS/graphs/contributors |
 |1|Docs: what: point descriptions of each class/function (in isolation)  | https://github.com/hvudeshi/SRIJAS/blob/main/docs |
 |.5|Number of commits: by different people  | in GH (https://github.com/hvudeshi/SRIJAS/commits/main) |
@@ -18,7 +18,7 @@
 |.5|Use of code formatters. | https://github.com/hvudeshi/SRIJAS/blob/main/.github/workflows/code_formatter.yml |
 |.5|Use of style checkers | https://github.com/hvudeshi/SRIJAS/blob/main/.github/workflows/style_checker.yml |
 |.5|Docs: short video, animated, hosted on your repo. That convinces people why they want to work on your code. | https://github.com/hvudeshi/SRIJAS/blob/main/README.md |
-|.5|test cases exist  | a lot of test cases exist covering almost all the functionalities. (https://github.com/hvudeshi/SRIJAS/blob/main/tests/keyword_extraction_modules_test.py) |
+|.5|test cases exist  | a lot of test cases exist covering almost all the functionalities. (https://github.com/hvudeshi/SRIJAS/blob/main/tests/), (https://github.com/hvudeshi/SRIJAS/blob/main/Code/Web_app/test.php) |
 |.5|Use of code coverage  | https://github.com/hvudeshi/SRIJAS/blob/main/.github/workflows/code_cov.yml |
 |.5|other automated analysis tools  | There are two additional automated analysis tools 1. Close as a feature (https://github.com/hvudeshi/SRIJAS/blob/main/.github/workflows/close_as_a_feature.yml) 2. Respost- adding comment to new issue events (https://github.com/hvudeshi/SRIJAS/blob/main/.github/workflows/Respost.yml) |
 |.5|test cases:.a large proportion of the issues related to handling failing cases. | if a test case fails, open an issue and fix it, evidence( 1. https://github.com/hvudeshi/SRIJAS/commit/5e0c52f474b5a31bfc5b1e81e18ecafb49d54b35 2. https://github.com/hvudeshi/SRIJAS/commit/c0d692e72aa87eef7887f03a380051c13929380c) |
