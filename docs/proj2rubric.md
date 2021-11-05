@@ -21,8 +21,8 @@
 |.5|test cases exist  | a lot of test cases exist covering almost all the functionalities. (https://github.com/hvudeshi/SRIJAS/blob/main/tests/keyword_extraction_modules_test.py) |
 |.5|Use of code coverage  | https://github.com/hvudeshi/SRIJAS/blob/main/.github/workflows/code_cov.yml |
 |.5|other automated analysis tools  | There are two additional automated analysis tools 1. Close as a feature (https://github.com/hvudeshi/SRIJAS/blob/main/.github/workflows/close_as_a_feature.yml) 2. Respost- adding comment to new issue events (https://github.com/hvudeshi/SRIJAS/blob/main/.github/workflows/Respost.yml) |
-|.5|test cases:.a large proportion of the issues related to handling failing cases. | if a test case fails, open an issue and fix it, evidence( Add example) |
+|.5|test cases:.a large proportion of the issues related to handling failing cases. | if a test case fails, open an issue and fix it, evidence( 1. https://github.com/hvudeshi/SRIJAS/commit/5e0c52f474b5a31bfc5b1e81e18ecafb49d54b35 2. https://github.com/hvudeshi/SRIJAS/commit/c0d692e72aa87eef7887f03a380051c13929380c) |
 |.5|test cases are routinely executed | Github actions and travis CI both are conducting regular tests. (https://github.com/hvudeshi/SRIJAS/blob/main/.travis.yml) |
-|1|Documentation describing how this version improves on the older version| (Add) |
-|3|This version is a little(1), some(2), much(3) improved on the last version.| (Add) | 
+|1|Documentation describing how this version improves on the older version| This version provides additionality functionalities which are described in the docs folder. (https://github.com/hvudeshi/SRIJAS/blob/main/docs/Phase-2_improvements.pdf) |
+|3|This version is a little(1), some(2), much(3) improved on the last version.| This version is a much improved in the last version. (https://github.com/hvudeshi/SRIJAS/blob/main/docs/Phase-2_improvements.pdf). Final release (https://github.com/hvudeshi/SRIJAS/releases/tag/v7.0.0) has all this features included. | 
 |16| Total|
