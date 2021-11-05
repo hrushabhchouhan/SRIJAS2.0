@@ -115,13 +115,37 @@ if __name__ =='__main__':
     match_threshold = int(get_threshold(connection))
 
     #scrap role name and job links along with job description from LinkedIn, glassdoor and Indeed
-    # role_name_linkedIn, final_result_linkedIn = sl.get_job_description(resume_skills,all_skills, match_threshold, role, location, no_of_jobs_to_retrieve, data)
-    job_role, final_result_glassdoor = sg.get_job_description(resume_skills,all_skills, match_threshold, role, location, no_of_jobs_to_retrieve, data)
-    # role_name_indeed, final_result_indeed = si.get_job_description(resume_skills,all_skills, match_threshold, role, location, no_of_jobs_to_retrieve, data)
-    print(final_result_glassdoor)
+    role_name_linkedIn, final_result_linkedIn = sl.get_job_description(resume_skills,all_skills, match_threshold, role, location, no_of_jobs_to_retrieve, data)
+    role_name_glassdoor, final_result_glassdoor = sg.get_job_description(resume_skills,all_skills, match_threshold, role, location, no_of_jobs_to_retrieve, data)
+    role_name_indeed, final_result_indeed = si.get_job_description(resume_skills,all_skills, match_threshold, role, location, no_of_jobs_to_retrieve, data)
+    # print(final_result_glassdoor)
     # final_results = final_result_linkedIn + final_result_glassdoor + final_result_indeed
     # role_name = role_name_linkedIn + role_name_glassdoor + role_name_indeed
-    
+    list_of_link = final_result_linkedIn[1] + final_result_glassdoor[1] + final_result_indeed[1]
+    # print(list_of_link)
+
+    # final_results = {**final_result_linkedIn, **final_result_glassdoor, **final_result_indeed}
+    # print(final_results)
+
+    newDict = {}
+    keySet = set(list(final_result_linkedIn.keys()) + list(final_result_glassdoor.keys()) + list(final_result_indeed.keys()))
+    for k in keySet:
+        if k not in newDict:
+            newDict[k] = []
+        if k in final_result_indeed:
+            newDict[k] = newDict[k] + final_result_indeed[k]
+        if k in final_result_glassdoor:
+            newDict[k] = newDict[k] + final_result_glassdoor[k]
+        if k in final_result_linkedIn:
+            newDict[k] = newDict[k] + final_result_linkedIn[k]
+    # print("New dict")
+    # print(newDict)
+
+    role_name = role_name_linkedIn + role_name_glassdoor + role_name_indeed    
+    # print(final_result_linkedIn)
+
+    #Send Email of job links
+    print(ea.sendmail(newDict,email_id_list,role_name))
     #Send Email of job links
     # ea.sendmail(final_result_linkedIn,email_id_list,role_name_linkedIn)
 

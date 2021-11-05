@@ -7,7 +7,7 @@
 ![Github pull requests](https://img.shields.io/github/issues-pr/hvudeshi/SRIJAS)
 ![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/hvudeshi/SRIJAS)
 [![DOI](https://zenodo.org/badge/412287201.svg)](https://zenodo.org/badge/latestdoi/412287201)
-[![Build Status](https://app.travis-ci.com/ineelshah/SRIJAS.svg?branch=main)](https://app.travis-ci.com/het-patel99/SRIJAS)
+[![Build Status](https://app.travis-ci.com/het-patel99/SRIJAS.svg?branch=main)](https://app.travis-ci.com/het-patel99/SRIJAS)
 [![codecov](https://codecov.io/gh/hvudeshi/SRIJAS/branch/main/graph/badge.svg?token=GAOEO4D2LN)](https://codecov.io/gh/hvudeshi/SRIJAS)
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/hvudeshi/SRIJAS)
 ![github workflow](https://github.com/hvudeshi/SRIJAS/actions/workflows/unit_test.yml/badge.svg)
@@ -38,15 +38,15 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
     <td valign="left"> 
       <p style="color: #FF7A59"> 1.This is the main SRIJAS web page 
       </p>
-      <a href="./images/home_page.png"> 
-        <img src="./images/home_page.png" >      
+      <a href="./images/ui_updated.png"> 
+        <img src="./images/ui_updated.png" >      
       </a>
     </td>
     <td valign="center"> 
       <p style="color: #FF7A59"> 2.User have to upload their resume file and enter the details
       </p>
-      <a href="./images/resume_upload.png">
-        <img src="./images/resume_upload.png"> 
+      <a href="./images/ui_updated2.png">
+        <img src="./images/ui_updated2.png"> 
       </a>
     </td>
   </tr>
@@ -54,8 +54,8 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
     <td colspan = "2">
       <p style="color: #FF7A59"> 3.The application matches the job postings with the skills and send email to the user.
       </p>  
-      <a href="./images/email.PNG">
-        <img src="./images/email.PNG">    
+      <a href="./images/email_updated_final.png">
+        <img src="./images/email_updated_final.png">    
       </a>
      </td>
     </td>
@@ -102,7 +102,7 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
 ---
 1. Clone the Github repository to a desired location on your computer. You will need [git](https://git-scm.com/) to be preinstalled on your machine. Once the repository is cloned, you will then ```cd``` into the local repository.
 ```
-git clone https://github.com/ineelshah/SRIJAS.git
+git clone https://github.com/hvudeshi/SRIJAS.git
 cd SRIJAS
 ```
 2. This project uses Python 3, so make sure that [Python](https://www.python.org/downloads/) and [Pip](https://pip.pypa.io/en/stable/installation/) are preinstalled. All requirements of the project are listed in the ```requirements.txt``` file. Use pip to install all of those.

@@ -59,9 +59,9 @@ def get_job_description(resume_skills,all_skills, match_threshold, role, locatio
         job_description = driver.find_element_by_xpath('//*[@id="jobDescriptionText"]').text
         jobs.append(job_description)
         final_dict[i] = job_description
-        job_title=driver.find_element_by_xpath("//*[@id='viewJobSSRRoot']/div/div[3]/div/div/div[1]/div[1]/div[2]/div[1]/div[1]/h1").text
+        # job_title=driver.find_element_by_xpath("//*[@id='viewJobSSRRoot']/div/div[3]/div/div/div[1]/div[1]/div[2]/div[1]/div[1]/h1").text
         #company_details=driver.find_element_by_xpath("//div[@class='css-16nw49e e11nt52q1']").text
-        job_role.append(job_title)
+        job_role.append("Software Engineer")
     
     final_result=ke.get_user_id_to_list_of_job_ids(resume_skills,final_dict,all_skills,match_threshold)
 
