@@ -61,10 +61,14 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
     </td>
   </tr>
   </table>
-<img src="email_updated_final.png">  
-<img src="ss-login.png">  
-<img src="ss-skills.png">  
-<img src="ui_updated.png">  
+  <p style="color: #FF7A59"> 4. Updated email notification .</p>  
+<img src="./images/email_updated_final.png"> 
+  <p style="color: #FF7A59"> 5. Added login functionality.</p> 
+<img src="./images/ss-login.png">  
+  <p style="color: #FF7A59">6. Skills compared in the job description</p> 
+<img src="./images/ss-skills.png">  
+  <p style="color: #FF7A59"> 7. Updated UI of home page.</p> 
+<img src="./images/ui_updated.png">  
 ## Plan Of Action:
 
 ### Phase 1:
