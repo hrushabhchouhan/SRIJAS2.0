@@ -1,23 +1,23 @@
 cff-version: 1.2.0
 message: "If you use this software, please cite it as below."
 authors:
-- family-names: "Patel"
-  given-names: "Parth Vijaykumar"
+- family-names: "Chouhan"
+  given-names: "Hrushabhsingh"
   orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Shah"
-  given-names: "Neel Kamlesh"
+- family-names: "Agarwal"
+  given-names: "Neha Balram"
   orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Shah"
-  given-names: "Jay Rajiv"
+- family-names: "Bhanushali"
+  given-names: "Hiral Rajendra"
   orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Tathavadkar"
-  given-names: "Ameya"
+- family-names: "Chauhan"
+  given-names: "Apoorva"
   orcid: "https://orcid.org/0000-0000-0000-0000"
-- family-names: "Shah"
-  given-names: "Harshil"
+- family-names: "Muniswamy"
+  given-names: "Ashwin Kumar"
   orcid: "https://orcid.org/0000-0000-0000-0000"
-title: "SRIJAS"
-version: 1.0.0
+title: "SRIJAS2.0"
+version: 2.0.0
 doi: 10.5281/zenodo.5539938
-date-released: 2021-09-29
+date-released: 2021-11-30
 url: "https://doi.org/10.5281/zenodo.5539938"
