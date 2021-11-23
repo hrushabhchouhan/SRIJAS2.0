@@ -86,7 +86,7 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
 - [ ] Allow users to select previously uploaded resumes.
 - [ ] Added UI to display user skills. 
 - [ ] Added confirmation page when user submitted their details and redirects to home.php.
-- [ ] Created proper structure for mail alerts that includes job information, its location, type, skills.
+- [ ] Created a proper structure for mail alerts that includes job information, its location, type, skills.
 
 
 ### Phase 3:
