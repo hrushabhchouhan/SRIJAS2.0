@@ -114,7 +114,7 @@ cd SRIJAS
 pip install -r requirements.txt
 ```
 
-## Contributors (Phase-2)
+## Contributors (Phase-3)
 
 Hiral Rajendra Bhanushali
 
