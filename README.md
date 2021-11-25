@@ -117,7 +117,11 @@ pip install -r requirements.txt
 ## Contributors (Phase-2)
 
 Hiral Rajendra Bhanushali
+
 Hrushabhsingh Chouhan
+
 Neha Agarwal
+
 Apoorva Chauhan
+
 Ashwinkumar Muniswamy
