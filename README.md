@@ -114,13 +114,13 @@ cd SRIJAS
 pip install -r requirements.txt
 ```
 
-## Contributors (Phase-3)
+## Contributors
 
 Hiral Rajendra Bhanushali
 
 Hrushabhsingh Chouhan
 
-Neha Agarwal
+Neha Balram Agarwal
 
 Apoorva Chauhan
 
