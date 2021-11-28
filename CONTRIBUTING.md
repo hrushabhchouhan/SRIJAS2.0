@@ -54,7 +54,7 @@ To contribute, please issue a pull request using the following procedure:
 ### Where to Contribute
 You can contribute in the following ways to our code:
 
-* Start a discussion
+* Start a discussion: 
   * Discuss any part of the code that you would like to talk about with a developer or fellow contributor. You can request previous phase developers for information on particular design or programming decisions or to help with any issues.
 
 * Add to the README
