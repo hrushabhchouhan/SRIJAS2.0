@@ -117,12 +117,12 @@ pip install -r requirements.txt
 
 ## Contributors
 
-Hiral Rajendra Bhanushali
+- Hiral Rajendra Bhanushali
 
-Hrushabhsingh Chouhan
+- Hrushabhsingh Chouhan
 
-Neha Balram Agarwal
+- Neha Balram Agarwal
 
-Apoorva Chauhan
+- Apoorva Chauhan
 
-Ashwinkumar Muniswamy
+- Ashwinkumar Muniswamy
