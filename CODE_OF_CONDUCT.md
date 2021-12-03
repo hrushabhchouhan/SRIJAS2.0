@@ -77,10 +77,13 @@ positive place to work at.
 
 ## Enforcement
 
+
+
 Instances of abusive, harassing, or otherwise unacceptable behavior may be
 reported to the community leaders responsible for enforcement at
 ameya1398@gmail.com OR at hshah6@ncsu.edu. You can also reach out to the
 at the time current developers from future phases.
+
 
 All complaints will be reviewed and investigated promptly and fairly.
 
