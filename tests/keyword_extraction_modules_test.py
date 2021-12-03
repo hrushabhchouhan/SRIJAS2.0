@@ -31,7 +31,20 @@ def test_match_both_lists_half_1():
     list2 = [1,2,3,4,5,6,7,8,9]
     assert kem.match_both_lists(list1, list2, 50, 10) == False
 
+def test_match_both_lists_half_2():
+    list1 = [1,2,3,4,5]
+    list2 = [1,2,3,4,5,6,7,8,9]
+    assert kem.match_both_lists(list1, list2, 50, 10) == True
 
+def test_match_both_lists_half_2():
+    list1 = [1]
+    list2 = ['a']
+    error_flag = False
+    try:
+        kem.match_both_lists(list1, list2, 50, 10)
+    except:
+        error_flag = True
+    assert error_flag == False
 
 
 def test_get_list_of_matched_skills_just_1():
