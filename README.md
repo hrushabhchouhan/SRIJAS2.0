@@ -91,9 +91,12 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
 
 ### Phase 3:
 - [ ] Develop a dashboard.
+- [ ] UI beautification
+- [ ] Generate insights from all collected data
+
+### Phase 4:
 - [ ] Summarize and generate a graph about how the user's resume has progressed.
 - [ ] Allow users to generate insights from how the uploaded resume compares with job descriptions in the market.
-- [ ] Generate insights from all collected data.
 
 ## Report Bug 
 ## Request a feature
