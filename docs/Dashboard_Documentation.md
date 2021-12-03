@@ -1,3 +1,3 @@
-![alt text](https://github.com/hrushabhchouhan/SRIJAS2.0/blob/main/images/dashboard.png)
+![alt text](https://github.com/hrushabhchouhan/SRIJAS2.0/blob/main/images/Dashboard.jpeg)
 
 After scanning the resume from the user, the skills found on it are searched on various job searching platforms such as LinkedIn, Glassdoor and Indeed. Web scraping is performed in order to fetch relevant jobs, the results of which are stored in the database. These results are then displayed in the form of a dashboard with the skills displayed along with the number of jobs matched. The scraping is performed using files which are in the /Code/Scrapper directory (Scrapper_main.py, keyword_extraction_modules.py, scrapper_glassdoor.py, scrapper_indeed.py, scrapper_linkedin.py) and the UI for this dashboard is in the home.php file.
