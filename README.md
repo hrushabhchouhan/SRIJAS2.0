@@ -99,6 +99,7 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
 - [ ] Allow users to generate insights from how the uploaded resume compares with job descriptions in the market.
 
 ## Report Bug 
+
 ## Request a feature
 <p align="center">
     <a href="https://github.com/hvudeshi/SRIJAS/issues/new/choose">Report Bug</a>
