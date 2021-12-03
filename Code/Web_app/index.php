@@ -57,7 +57,7 @@ $conn->close();
 </head>
 <body>
 <!-- Here, we create a simple form with the options to add name, email, job type and upload a .pdf file-->
-  <div style="background: url(https://i.postimg.cc/3N7wnb75/background.jpg)no-repeat; background-size: cover;" class="jumbotron bg-cover text-white">
+  <div style="background: url(https://i.postimg.cc/qzVKQncC/bg.jpg)no-repeat; background-size: cover;" class="jumbotron bg-cover text-white">
       <div class="container py-5 text-center">
           <h1 class="display-4 font-weight-bold">S.R.I.J.A.S. (Smart Resume Interpreter And Job Alerts System)</h1>
       </div>
