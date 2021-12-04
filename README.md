@@ -108,12 +108,13 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
 - [ ] Summarize and generate a graph about how the user's resume has progressed.
 - [ ] Allow users to generate insights from how the uploaded resume compares with job descriptions in the market.
 
-## Report Bug 
+## Report a Bug 
+<p align="center">
+    <a href="https://github.com/hrushabhchouhan/SRIJAS2.0/issues/new/choose">Report Bug</a>
+</p>
 
 ## Request a feature
 <p align="center">
-    <a href="https://github.com/hrushabhchouhan/SRIJAS2.0/issues/new/choose">Report Bug</a>
-    ·
     <a href="https://github.com/hrushabhchouhan/SRIJAS2.0/issues/new/choose">Request Feature</a>
 </p>
 
