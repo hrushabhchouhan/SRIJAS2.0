@@ -20,15 +20,18 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/hrushabhchouhan/SRIJAS2.0)
 ![GitHub contributors](https://img.shields.io/github/contributors/hrushabhchouhan/SRIJAS2.0)
 
+
+## 👍🏻 Demo Video
+
+[![S.R.I.J.A.S.v2.0](https://img.youtube.com/vi/3RQS-bFaeNo/0.jpg)](https://www.youtube.com/watch?v=3RQS-bFaeNo)
+
 https://user-images.githubusercontent.com/25223347/135366127-f6b741f2-de85-4d64-92c9-cd1d2f518090.mp4
 
 ## Phase 2 Working Demo 
 
 [![SRIJAS](https://img.youtube.com/vi/2PqOaFu9pPU/0.jpg)](https://www.youtube.com/watch?v=2PqOaFu9pPU)
 
-## 👍🏻 Phase 3 Demo Video
 
-[![S.R.I.J.A.S.v2.0](https://img.youtube.com/vi/3RQS-bFaeNo/0.jpg)](https://www.youtube.com/watch?v=3RQS-bFaeNo)
 
 # S.R.I.J.A.S.2.0
 ## Job Search was never this easy
