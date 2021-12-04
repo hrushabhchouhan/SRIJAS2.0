@@ -50,7 +50,7 @@ To contribute, please issue a pull request using the following procedure:
 
 * Ensure that it is of good quality. The language should be clear and concise without any spelling or grammar mistakes.
 
-* Make sure that any contribution of any sort follows the code of conduct. Our repository has a [code of conduct](https://github.com/ineelshah/SRIJAS/blob/main/CODE_OF_CONDUCT.md) and any pull request that does not respect these will be appropriately removed.
+* Make sure that any contribution of any sort follows the code of conduct. Our repository has a [code of conduct](https://github.com/hrushabhchouhan/SRIJAS2.0/blob/main/CODE_OF_CONDUCT.md) and any pull request that does not respect these will be appropriately removed.
 
 <br></br>
 ### Where to Contribute
@@ -73,7 +73,9 @@ You can contribute in the following ways to our code:
 
 <br></br>
 ### Setting up a development environment
-You can do this in 2 ways:
+You can do this in 2 methods:
+
+#### Method 1
 1. Install Xampp and Selenium on your local device
 * Windows:
   * https://www.apachefriends.org/xampp-files/8.0.10/xampp-windows-x64-8.0.10-0-VS16-installer.exe
@@ -88,7 +90,7 @@ Download Selenium: https://www.selenium.dev/downloads/
 
 3. Copy the web_app folder to your local htdocs folder and proceed!
 
-###OR
+#### Method 2
 
 1. Run an AWS EC2 instance
 
@@ -96,7 +98,7 @@ Download Selenium: https://www.selenium.dev/downloads/
 
 3. Clone the repository to root and copy the web_app folder to /var/www/html/.
 
-**You’re all set!**
+🤟🏻 ** You’re all set!**
 <br></br>
 ![Success](https://tenor.com/view/success-kid-hells-yes-i-did-it-fuck-yeah-success-gif-5207407.gif)
 
