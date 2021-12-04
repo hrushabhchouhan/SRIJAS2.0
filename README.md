@@ -1,4 +1,6 @@
-![SRIJAS_LOGO](https://user-images.githubusercontent.com/40118578/135184051-73acf9be-07c1-4c98-9730-68fa161f6a1b.png)
+<p align="center">
+  <img SRIJAS_LOGO src="https://user-images.githubusercontent.com/40118578/135184051-73acf9be-07c1-4c98-9730-68fa161f6a1b.png">
+</p>
 
 ![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/hrushabhchouhan/SRIJAS2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
@@ -23,27 +25,47 @@
 ![Lines of code](https://img.shields.io/tokei/lines/github/hrushabhchouhan/SRIJAS2.0)
 ![GitHub contributors](https://img.shields.io/github/contributors/hrushabhchouhan/SRIJAS2.0)
 
+---
 
-## 👍🏻 Demo Video (Phase 3)
+## Phase 3 Demo Video
+   [![S.R.I.J.A.S.v2.0](https://img.youtube.com/vi/3RQS-bFaeNo/0.jpg)](https://www.youtube.com/watch?v=3RQS-bFaeNo)
 
-[![S.R.I.J.A.S.v2.0](https://img.youtube.com/vi/3RQS-bFaeNo/0.jpg)](https://www.youtube.com/watch?v=3RQS-bFaeNo)
+---
 
-https://user-images.githubusercontent.com/25223347/135366127-f6b741f2-de85-4d64-92c9-cd1d2f518090.mp4
+<p align="center">
+  <h1 align="center">S.R.I.J.A.S.2.0</h1>
+  <h2 align="center">Job Search was never this Easy</h2>
+  Smart-Resume-Interpreter-And-Job-Alert-System is an application that makes your job search easy and less frustrating.
+  With SRIJAS, you can upload your resume and job which you want to search for. The application will browse Linkedin and Glassdoor websites to search for the jobs.
+  The links of the jobs that matches with the skills in your resume, will be sent to you via email.<br></br>
+  This is our submission for the <b>Project-3</b> for Software Engineering CSC 510 Fall 2021.
+</p>
 
-## Phase 2 Working Demo 
+<p align="center">
+  <a href="#overview">Overview</a>
+  ::
+  <a href="#dart-plan-of-action">Plan of Action</a>
+  ::
+  <a href="#report-a-bug">Report Bug</a>
+  ::
+  <a href="#request-a-feature">Request Feature</a>
+  ::
+  <a href="#trident-installation">Installation</a>
+  ::
+  <a href="#contributors">Contributors</a>
+</p>
 
+---
+
+## Phase 2 Demo Video
 [![SRIJAS](https://img.youtube.com/vi/2PqOaFu9pPU/0.jpg)](https://www.youtube.com/watch?v=2PqOaFu9pPU)
 
+---
 
+## Phase 1 Demo Video
+https://user-images.githubusercontent.com/25223347/135366127-f6b741f2-de85-4d64-92c9-cd1d2f518090.mp4
 
-# S.R.I.J.A.S.2.0
-## Job Search was never this easy
-Smart-Resume-Interpreter-And-Job-Alert-System is an application that makes your job search easy and less frustrating.
-With SRIJAS, you can upload your resume and job which you want to search for. The application will browse Linkedin and Glassdoor websites to search for the jobs.
-The links of the jobs that matches with the skills in your resume, will be sent to you via email.
-
-This is our submission for the Project for Software Engineering CSC 510 Fall 2021.
-
+---
 
 ## Overview
 <table border="2" bordercolorlight="#b9dcff" bordercolordark="#006fdd">
@@ -76,7 +98,9 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
   </tr>
   </table>
 
-## Plan Of Action:
+---
+
+## :dart: Plan Of Action:
 
 ### Phase 1:
 - [ ] Designing the infrastructure for hosting the web application, database and other required services.
@@ -86,7 +110,6 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
 - [ ] Developing an Email or Notification Service.
 - [ ] Extract knowledge from scraped data.
 - [ ] Match user skillsets with the skillsets extracted from scraped data.
-
 
 ### Phase 2:
 - [ ] Take more advanced filters from the user.
@@ -98,7 +121,6 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
 - [ ] Added confirmation page when user submitted their details and redirects to home.php.
 - [ ] Created a proper structure for mail alerts that includes job information, its location, type, skills.
 
-
 ### Phase 3:
 - [ ] Develop a dashboard.
 - [ ] UI beautification.
@@ -108,18 +130,23 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
 - [ ] Summarize and generate a graph about how the user's resume has progressed.
 - [ ] Allow users to generate insights from how the uploaded resume compares with job descriptions in the market.
 
+---
+
 ## Report a Bug 
 <p align="center">
     <a href="https://github.com/hrushabhchouhan/SRIJAS2.0/issues/new/choose">Report Bug</a>
 </p>
+
+---
 
 ## Request a feature
 <p align="center">
     <a href="https://github.com/hrushabhchouhan/SRIJAS2.0/issues/new/choose">Request Feature</a>
 </p>
 
-🔱: Installation
 ---
+
+## :trident: Installation
 1. Clone the Github repository to a desired location on your computer. You will need [git](https://git-scm.com/) to be preinstalled on your machine. Once the repository is cloned, you will then ```cd``` into the local repository.
 ```
 git clone https://github.com/hrushabhchouhan/SRIJAS2.0.git
@@ -129,6 +156,7 @@ cd SRIJAS2.0
 ```
 pip install -r requirements.txt
 ```
+---
 
 ## Contributors
 
