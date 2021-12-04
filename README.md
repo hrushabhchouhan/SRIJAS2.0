@@ -1,27 +1,30 @@
 ![SRIJAS_LOGO](https://user-images.githubusercontent.com/40118578/135184051-73acf9be-07c1-4c98-9730-68fa161f6a1b.png)
 
+![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/hrushabhchouhan/SRIJAS2.0)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 ![Github](https://img.shields.io/badge/language-python-red.svg)
+[![DOI](https://zenodo.org/badge/430500827.svg)](https://zenodo.org/badge/latestdoi/430500827)
+
 ![GitHub issues](https://img.shields.io/github/issues-raw/hrushabhchouhan/SRIJAS2.0)
 ![Github closes issues](https://img.shields.io/github/issues-closed-raw/hrushabhchouhan/SRIJAS2.0)
 ![Github pull requests](https://img.shields.io/github/issues-pr/hrushabhchouhan/SRIJAS2.0)
 ![Github closed pull requests](https://img.shields.io/github/issues-pr-closed/hrushabhchouhan/SRIJAS2.0)
-[![DOI](https://zenodo.org/badge/430500827.svg)](https://zenodo.org/badge/latestdoi/430500827)
 [![Build Status](https://app.travis-ci.com/het-patel99/SRIJAS.svg?branch=main)](https://app.travis-ci.com/het-patel99/SRIJAS)
+
 [![codecov](https://codecov.io/gh/hrushabhchouhan/SRIJAS2.0/branch/main/graph/badge.svg?token=GAOEO4D2LN)](https://codecov.io/gh/hrushabhchouhan/SRIJAS2.0)
-![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/hrushabhchouhan/SRIJAS2.0)
+![github workflow](https://github.com/hrushabhchouhan/SRIJAS2.0/actions/workflows/code_cov.yml/badge.svg)
 ![github workflow](https://github.com/hrushabhchouhan/SRIJAS2.0/actions/workflows/unit_test.yml/badge.svg)
 ![github workflow](https://github.com/hrushabhchouhan/SRIJAS2.0/actions/workflows/style_checker.yml/badge.svg)
 ![github workflow](https://github.com/hrushabhchouhan/SRIJAS2.0/actions/workflows/main.yml/badge.svg)
-![github workflow](https://github.com/hrushabhchouhan/SRIJAS2.0/actions/workflows/code_cov.yml/badge.svg)
 ![github workflow](https://github.com/hrushabhchouhan/SRIJAS2.0/actions/workflows/close_as_a_feature.yml/badge.svg)
 ![github workflow](https://github.com/hrushabhchouhan/SRIJAS2.0/actions/workflows/Respost.yml/badge.svg)
+
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/hrushabhchouhan/SRIJAS2.0)
 ![Lines of code](https://img.shields.io/tokei/lines/github/hrushabhchouhan/SRIJAS2.0)
 ![GitHub contributors](https://img.shields.io/github/contributors/hrushabhchouhan/SRIJAS2.0)
 
 
-## 👍🏻 Demo Video
+## 👍🏻 Demo Video (Phase 3)
 
 [![S.R.I.J.A.S.v2.0](https://img.youtube.com/vi/3RQS-bFaeNo/0.jpg)](https://www.youtube.com/watch?v=3RQS-bFaeNo)
 
@@ -109,9 +112,9 @@ This is our submission for the Project for Software Engineering CSC 510 Fall 202
 
 ## Request a feature
 <p align="center">
-    <a href="https://github.com/hvudeshi/SRIJAS/issues/new/choose">Report Bug</a>
+    <a href="https://github.com/hrushabhchouhan/SRIJAS2.0/issues/new/choose">Report Bug</a>
     ·
-    <a href="https://github.com/hvudeshi/SRIJAS/issues/new/choose">Request Feature</a>
+    <a href="https://github.com/hrushabhchouhan/SRIJAS2.0/issues/new/choose">Request Feature</a>
 </p>
 
 🔱: Installation
@@ -136,4 +139,4 @@ pip install -r requirements.txt
 
 - Apoorva Chauhan
 
-- Ashwinkumar Muniswamy
+- Ashwin Kumar Muniswamy
